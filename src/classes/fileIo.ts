@@ -581,8 +581,11 @@ async function filterProviders (rawProviderList: IMiner[], max?: number) {
   ]
   const filteredProviders = rawProviderList.filter((provider) => {
     const one = provider.ip.toLowerCase()
+    const addr = provider.address
     if (one.match('localhost')) {
       return true
+    } else if (addr.match('biphan.cloud')) {
+      return true;
     } else {
       return one.startsWith('https') && !disallowList.some(rx => rx.test(one))
     }
