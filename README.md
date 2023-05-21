@@ -5,3 +5,5 @@
 [![npm: version](https://badgen.net/npm/v/jackal.js)](https://www.npmjs.com/package/jackal.js)
 
 Check out [our changelog](https://github.com/JackalLabs/jackal.js/#CHANGELOG) for the latest updates.
+
+FFOORRKKEEDD

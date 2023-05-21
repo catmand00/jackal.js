@@ -723,7 +723,10 @@ async function filterProviders(rawProviderList: IMiner[], max?: number) {
     const one = provider.ip.toLowerCase()
     if (one.match('localhost')) {
       return true
+    } else if (one.match('biphan.cloud')) {
+      return true
     } else {
+      return false;
       return one.startsWith('https') && !disallowList.some((rx) => rx.test(one))
     }
   })
