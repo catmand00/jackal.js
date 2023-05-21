@@ -32,12 +32,12 @@
   "license": "SEE LICENSE IN LICENSE",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JackalLabs/jackal.js.git"
+    "url": "git+https://github.com/catmand00/jackal.js.git"
   },
   "bugs": {
-    "url": "https://github.com/JackalLabs/jackal.js/issues"
+    "url": "https://github.com/catmand00/jackal.js/issues"
   },
-  "homepage": "https://github.com/JackalLabs/jackal.js/#README",
+  "homepage": "https://github.com/catmand00/jackal.js/#README",
   "dependencies": {
     "@cosmjs/launchpad": "^0.27.1",
     "@cosmjs/proto-signing": "^0.28.13",
